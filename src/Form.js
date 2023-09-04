@@ -2,10 +2,12 @@ import React from "react";
 
 const Form = () => {
   return (
-    <div className=" px-8 py-8">
-      <h1 className="text-4xl font-bold text-green-700">Employee management</h1>
-      <div className="flex justify-between py-8">
-        <h2 className="text-4xl font-bold text-green-700">Employee List</h2>
+    <div className=" px-8 pt-8">
+      <h1 className="text-4xl font-bold text-blue-700">
+        Employee management SPA
+      </h1>
+      <div className="flex justify-between pt-8">
+        <h2 className="text-3xl font-bold text-green-700">Employee List</h2>
         <button className="bg-green-700 text-white rounded-md px-4 py-2 flex items-center">
           <div className="bg-white rounded-full text-black p-1 mr-2">
             <svg
