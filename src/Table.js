@@ -14,9 +14,18 @@ const Table = ({ data }) => {
             </th>
             <th class="bg-gray-600 p-2 text-white font-bold md:border md:border-grey-500 text-left block md:table-cell">
               Gender
-            </th>
+            </th>{" "}
             <th class="bg-gray-600 p-2 text-white font-bold md:border md:border-grey-500 text-left block md:table-cell">
               DOB
+            </th>
+            <th class="bg-gray-600 p-2 text-white font-bold md:border md:border-grey-500 text-left block md:table-cell">
+              Joining Date
+            </th>
+            <th class="bg-gray-600 p-2 text-white font-bold md:border md:border-grey-500 text-left block md:table-cell">
+              Relieving Date
+            </th>
+            <th class="bg-gray-600 p-2 text-white font-bold md:border md:border-grey-500 text-left block md:table-cell">
+              Contact Number
             </th>
             <th class="bg-gray-600 p-2 text-white font-bold md:border md:border-grey-500 text-left block md:table-cell">
               Salary
@@ -56,6 +65,24 @@ const Table = ({ data }) => {
                   DOB
                 </span>
                 {item.dob}
+              </td>
+              <td className="p-2 md:border md:border-grey-500 text-left block md:table-cell">
+                <span className="inline-block w-1/3 md:hidden font-bold">
+                  Joining Date
+                </span>
+                {item.joining}
+              </td>
+              <td className="p-2 md:border md:border-grey-500 text-left block md:table-cell">
+                <span className="inline-block w-1/3 md:hidden font-bold">
+                  Relieving Date
+                </span>
+                {item.relieving}
+              </td>
+              <td className="p-2 md:border md:border-grey-500 text-left block md:table-cell">
+                <span className="inline-block w-1/3 md:hidden font-bold">
+                  Contact number
+                </span>
+                {item.contact}
               </td>
               <td className="p-2 md:border md:border-grey-500 text-left block md:table-cell">
                 <span className="inline-block w-1/3 md:hidden font-bold">
