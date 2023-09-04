@@ -1,4 +1,4 @@
-import Form from "./Form";
+import EmployeeList from "./Employeelist";
 import Table from "./Table";
 
 const jsonData = [
@@ -37,7 +37,7 @@ const jsonData = [
 function App() {
   return (
     <div className="App">
-      <Form />
+      <EmployeeList />
       <Table data={jsonData} />
     </div>
   );
