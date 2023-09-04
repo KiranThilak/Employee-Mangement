@@ -1,23 +1,35 @@
-import logo from './logo.svg';
-import './App.css';
+import Form from "./Form";
+import Table from "./Table";
+
+const jsonData = [
+  {
+    name: "Saurav Sir",
+    email: "techular@gmail.com",
+    gender: "Male",
+    dob: "28-08-1991",
+    salary: 300000,
+  },
+  {
+    name: "Kiara",
+    email: "jha02323@gmail.com",
+    gender: "female",
+    dob: "11-02-2022",
+    salary: 200000,
+  },
+  {
+    name: "Saurav Sir",
+    email: "techular@gmail.com",
+    gender: "Male",
+    dob: "28-08-1991",
+    salary: 300000,
+  },
+];
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Form />
+      <Table data={jsonData} />
     </div>
   );
 }
