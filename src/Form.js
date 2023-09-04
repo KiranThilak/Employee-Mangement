@@ -8,7 +8,7 @@ const Form = () => {
       </h1>
       <div className="flex justify-between pt-8">
         <h2 className="text-3xl font-bold text-green-700">Employee List</h2>
-        <button className="bg-green-700 text-white rounded-md px-4 py-2 flex items-center">
+        <button className="bg-green-700  hover:bg-green-900 text-white rounded-md px-4 py-2 flex items-center">
           <div className="bg-white rounded-full text-black p-1 mr-2">
             <svg
               xmlns="http://www.w3.org/2000/svg"
