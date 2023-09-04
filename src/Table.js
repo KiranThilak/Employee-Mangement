@@ -31,6 +31,9 @@ const Table = ({ data }) => {
               Salary
             </th>
             <th class="bg-gray-600 p-2 text-white font-bold md:border md:border-grey-500 text-left block md:table-cell">
+              Status
+            </th>
+            <th class="bg-gray-600 p-2 text-white font-bold md:border md:border-grey-500 text-left block md:table-cell">
               Actions
             </th>
           </tr>
@@ -89,6 +92,12 @@ const Table = ({ data }) => {
                   Salary
                 </span>
                 {item.salary}
+              </td>
+              <td className="p-2 md:border md:border-grey-500 text-left block md:table-cell">
+                <span className="inline-block w-1/3 md:hidden font-bold">
+                  Status
+                </span>
+                {item.status}
               </td>
               <td className="p-2 md:border md:border-grey-500 text-left block md:table-cell">
                 <span className="inline-block w-1/3 md:hidden font-bold">

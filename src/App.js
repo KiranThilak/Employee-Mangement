@@ -11,6 +11,7 @@ const jsonData = [
     relieving: "28-08-2023",
     contact: "9988456738",
     salary: 300000,
+    status: "Active",
   },
   {
     name: "Kiara",
@@ -21,6 +22,7 @@ const jsonData = [
     relieving: "28-08-2023",
     contact: "9988456738",
     salary: 200000,
+    status: "Inactive",
   },
   {
     name: "Saurav Sir",
@@ -31,6 +33,7 @@ const jsonData = [
     relieving: "28-08-2023",
     contact: "9988456738",
     salary: 300000,
+    status: "Active",
   },
 ];
 
